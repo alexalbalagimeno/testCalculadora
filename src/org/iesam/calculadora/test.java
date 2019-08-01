@@ -33,7 +33,6 @@ static Calculadora calcul;
 	@Test
 	void testSumar() {
 		assertEquals(25, calcul.sumar(15, 10));
-	
 	}
 	@Test
 	void testRestar() {
@@ -47,7 +46,7 @@ static Calculadora calcul;
 	@Test
 	void testDividir() {
 		try {
-			assertEquals(2, calcul.dividir(10, 5));
+			assertEquals(2, calcul.dividir(10, 4));
 		} catch (DivisioZeroException e) {
 			e.printStackTrace();
 		}
