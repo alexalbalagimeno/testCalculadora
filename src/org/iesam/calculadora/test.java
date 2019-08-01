@@ -46,7 +46,7 @@ static Calculadora calcul;
 	@Test
 	void testDividir() {
 		try {
-			assertEquals(2, calcul.dividir(10, 4));
+			assertEquals(2, calcul.dividir(10, 5));
 		} catch (DivisioZeroException e) {
 			e.printStackTrace();
 		}
